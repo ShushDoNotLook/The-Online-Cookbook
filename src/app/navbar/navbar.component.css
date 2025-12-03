@@ -1,0 +1,45 @@
+#navbar {
+  background-color: #FFCC80;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* this styles recipe searcher */
+#navbar-brand {
+  text-decoration: none;
+  font-size: 36px;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+}
+
+/* so we know when the "Recipe Searcher" is being hovered */
+#navbar-brand:hover {
+  color: rgb(83, 77, 77);
+  text-decoration: none;
+}
+
+/* this styles home, fridge, and recipes */
+.nav-link {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+  padding: 0 30px; /* spacing between navbar items */
+  margin-right: 30px;
+  display: inline-block;
+
+  img {
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+  }
+
+  &:hover {
+    color: rgb(83, 77, 77);
+    text-decoration: underline;
+  }
+  &:active {
+    color: black;
+  }
+}
